@@ -1,0 +1,45 @@
+.plan-item {
+  background: #fff;
+  border-radius: 16px;
+  padding: 0 20px 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.plan-tag {
+  display: inline-block;
+  padding: 6px 14px;
+  margin: 0 0 14px;
+  border-radius: 0 0 10px 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+}
+.plan-tag-holiday { background: #10b981; }
+.plan-tag-longweekend { background: #f59e0b; }
+.plan-tag-event { background: #8b5cf6; }
+
+.plan-item h3 { margin: 0 0 10px; }
+
+.plan-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 6px 0;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.plan-remove-btn {
+  width: 100%;
+  margin-top: 14px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #fef2f2;
+  color: #dc2626;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+.plan-remove-btn:hover { background: #fee2e2; }

@@ -1,0 +1,62 @@
+.custom-select { position: relative; }
+
+.custom-select-trigger {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  background: #fff;
+  cursor: pointer;
+  font: inherit;
+}
+.custom-select-trigger span { flex: 1; text-align: left; }
+
+.custom-select-panel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 6px;
+  padding: 8px;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  z-index: 50;
+}
+
+.cs-search {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font: inherit;
+}
+
+.cs-list {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.cs-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.cs-item:hover { background: #f1f5f9; }
+.cs-code { margin-left: auto; font-size: 12px; color: #94a3b8; }
+
+.cs-flag { width: 28px; height: 20px; object-fit: cover; border-radius: 3px; }
+#trigger-text .cs-flag { margin-right: 10px; vertical-align: middle; }
+#country-panel.hidden { display: none !important; }
+.currency-select-group { min-width: 0; }
+.currency-select-group .form-select { width: 100%; max-width: 100%; }
